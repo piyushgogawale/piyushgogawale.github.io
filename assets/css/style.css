@@ -519,13 +519,6 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
-}
-
-.portfolio #portfolio-flters li:last-child {
-  margin-right: 0;
-}
 
 .portfolio .portfolio-wrap {
   transition: 0.3s;
@@ -546,7 +539,16 @@ section {
   z-index: 2;
   opacity: 0;
 }
+.portfolio-links{
+  background-color: rgb(238, 238, 238);
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 0;
+}
 
+.portfolio-links > a{
+  color: #040b14;
+}
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 1;
   left: 0;
